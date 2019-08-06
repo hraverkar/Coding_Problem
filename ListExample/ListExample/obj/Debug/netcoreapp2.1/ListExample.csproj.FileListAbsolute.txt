@@ -1,0 +1,11 @@
+C:\Users\Harshal\source\repos\ListExample\ListExample\bin\Debug\netcoreapp2.1\ListExample.deps.json
+C:\Users\Harshal\source\repos\ListExample\ListExample\bin\Debug\netcoreapp2.1\ListExample.runtimeconfig.json
+C:\Users\Harshal\source\repos\ListExample\ListExample\bin\Debug\netcoreapp2.1\ListExample.runtimeconfig.dev.json
+C:\Users\Harshal\source\repos\ListExample\ListExample\bin\Debug\netcoreapp2.1\ListExample.dll
+C:\Users\Harshal\source\repos\ListExample\ListExample\bin\Debug\netcoreapp2.1\ListExample.pdb
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.csprojAssemblyReference.cache
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.csproj.CoreCompileInputs.cache
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.AssemblyInfoInputs.cache
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.AssemblyInfo.cs
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.dll
+C:\Users\Harshal\source\repos\ListExample\ListExample\obj\Debug\netcoreapp2.1\ListExample.pdb
