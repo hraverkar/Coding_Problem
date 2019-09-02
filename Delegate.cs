@@ -1,35 +1,56 @@
 using System;
-
-namespace ConsoleApp63
+using System.Collections.Generic;
+using System.Threading;
+/*
+ *Delegate : delegate are function pointer.
+ * it is type safe its have the same parameter System.Delegate
+ *
+ * Delegate is to use as event 
+ *
+ *
+ */
+namespace ConsoleApp76
 {
-  internal class Geeks
+  delegate int Calculator(int n);
+  class Program
   {
-    public delegate void AddNumber(int a, int b);
+    private static int _number = 100;
 
-    public delegate void SubNumber(int a, int b);
-
-    public void Sum(int a, int b)
+    public static int Add(int n)
     {
-      Console.WriteLine("(100+40) = {0} ", a + b);
+      _number += n;
+      return _number;
     }
 
-    public void Substract(int a, int b)
+    public static int Multiplication(int n)
     {
-      Console.WriteLine("(100-60) = {0}", a - b);
+      _number += n;
+      return _number;
     }
 
-  }
+    public static int Division(int n)
+    {
+      _number += n;
+      return _number;
+    }
 
-  internal class Test
-  {
+    public static int GetNumber()
+    {
+      return _number;
+    }
+
     public static void Main()
     {
-      var geek = new Geeks();
-      var delObj1 = new Geeks.AddNumber(geek.Sum);
-      var delObj2 = new Geeks.SubNumber(geek.Substract);
-
-      delObj1(100, 40);
-      delObj2(100, 60);
+      Calculator c1 = Add;
+      Calculator c2 = Multiplication;
+      Calculator c3 = Division;
+      c1(12);
+      Console.WriteLine("After c1 is : " + GetNumber());
+      c2(5);
+      Console.WriteLine("After c1 is : " + GetNumber());
+      c3(2);
+      Console.WriteLine("After c1 is : " + GetNumber());
     }
   }
+
 }
