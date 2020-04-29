@@ -8,7 +8,7 @@ Problem to solve daily programming challenges. (Programing language is C#)
 * constructor: private (note that if no constructor is explicitly defined, a public default constructor will be automatically defined)
 * delegate: internal
 * interface: internal
-* explicitly implemented interface member: public!
+* explicitly implemented interface member: public
 
 
 Properties of Addition of Natural Numbers:
